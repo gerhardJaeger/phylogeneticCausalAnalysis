@@ -1,0 +1,22 @@
+name: mrbayes
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=4.5=1_gnu
+  - beagle-lib=3.1.2=h7d875b9_3
+  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgfortran-ng=7.5.0=ha8ba4b0_17
+  - libgfortran4=7.5.0=ha8ba4b0_17
+  - libgomp=9.3.0=h5101ec6_17
+  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - libtool=2.4.6=h295c915_1008
+  - mpi=1.0=openmpi
+  - mrbayes=3.2.7=h760cbc2_0
+  - ncurses=6.1=he6710b0_1
+  - openjdk=8.0.152=h7b6447c_3
+  - openmpi=4.0.2=hb1b8bf9_1
+  - readline=8.0=h7b6447c_0
+  - zlib=1.2.11=h7f8727e_4
+prefix: /home/gjaeger/anaconda3/envs/mrbayes
