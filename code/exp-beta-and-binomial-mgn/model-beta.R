@@ -112,7 +112,7 @@ data_cues_2 <- data_cues %>%
 ## Binomial model
 ## with this model the correlations are weaker but clearer
 
-bm_a1 <- brm(bf(mvbind(x1) | trials(n) ~ 1 + (1|p|gr(Language, cov = phylo)))
+bm_a1 <- brm(bf(mvbind(x1,x2,x3,x4) | trials(n) ~ 1 + (1|p|gr(Language, cov = phylo)))
           , prior = c(prior(normal(0, 1), class = Intercept)
                     , prior(normal(0, 1), class = sd, resp = x1)
                     , prior(normal(0, 1), class = sd, resp = x2)
